@@ -30,13 +30,15 @@
 
   }
 
-
+  /*  YOU CAN CHANGE THE COLORS OF THE LINKS!
+*/
   a {
       text-decoration: none;
       color: black;
   }
 
   a:hover {
+      font-family: 'Bungee Inline', cursive;
       color: #fe4300;
   }
 
@@ -76,67 +78,24 @@
 
   }
 
-  /* This is the styling for the green div on the take-apart page*/
+/*  ************THIS IS THE END OF THE STYLING FOR THE LANDING INDEX.HTML PAGE********
+*/
 
 
-  #takeApart-list {
-      font-size: 12px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      top: -10px;
-      height: 150px;
-      padding-left: 5%;
-      background-color: yellow;
-      position: relative;
+/*BELOW IS FOR THE JOURNAL SECTION
+*/  
+  .journal-section {
       font-family: courier;
+      color: darkgrey;
+      font-size: 14px;
+      padding: 5%;
 
   }
 
-  #takeApart-list a {
-font-size:14px;
-      background-color: yellow;
-      font-family: courier;
-
-  }
-
-
-  .description {
-      background-color: #1db3ff;
-      color:white;
-      font-family:arial;
-      font-size:14px;
-      position:relative;
-      top:-50px;
-      padding:20px;
-      height:400px;
-  }
-
-  a {
-
-      font-family: 'Bungee Inline', cursive;
-
-  }
-
-  h1 {
-      font-family: 'Bungee Inline', cursive;
-      color:black;
-
-  }
-
-   .journal-section {
-      font-family: courier;
-      color:darkgrey;
-      font-size:14px;
-      padding:5%;
-
-  }
-
-  .day3-image{
-    width:40%;
-    height:400px;
-    margin:2%;
+  .day3-image {
+      width: 40%;
+      height: 400px;
+      margin: 2%;
   }
 
   @media (max-device-width : 667px) {}
-
-  
